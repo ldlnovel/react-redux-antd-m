@@ -1,0 +1,91 @@
+.list-box {
+  position: relative;
+  margin: 0px 0 70px 0;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+.list-box > .head {
+  position: fixed;
+  width: 100%;
+  background-color: #A6A394;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.list-box > .head > span {
+  font-size: 16px;
+  margin-left: -150px;
+  line-height: 28px;
+}
+.list-box > .head > div > .icon-shousuo {
+  margin-right: 20px;
+}
+.list-box > .photograph {
+  background-color: #A6A394;
+  padding: 70px 20px 20px;
+  display: flex;
+}
+.list-box > .photograph > img {
+  height: 145px;
+  width: 145px;
+}
+.list-box > .photograph > div {
+  padding: 20px;
+  color: #fff;
+  font-family: "宋体";
+  font-size: 18px;
+}
+.list-box > .photograph > div > .user {
+  margin-top: 25px;
+  display: flex;
+}
+.list-box > .photograph > div > .user > img {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.list-box > .photograph > div > .user > p {
+  padding-left: 10px;
+  font-size: 12px;
+  line-height: 30px;
+}
+.list-box > .setmusic {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background-color: #A6A394;
+  color: #fff;
+  padding: 15px;
+}
+.list-box > .setmusic > .active {
+  color: #DAD7C8;
+}
+.list-box > .setmusic > div {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.list-box > .listhead {
+  display: flex;
+  justify-content: space-between;
+  line-height: 50px;
+  padding: 0 10px;
+  border-bottom: 1px solid #E1E3E2;
+}
+.list-box > .listhead > div {
+  display: flex;
+}
+.list-box > .listhead > div > i {
+  margin-right: 10px;
+}
+.list-box > .listhead > div > p > span {
+  color: #c2c5c3;
+  margin-left: 10px;
+}
+.list-box > .listhead > div > .icon-duoxuan {
+  font-size: 14px;
+}

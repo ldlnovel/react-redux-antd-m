@@ -1,0 +1,45 @@
+.main > .my-gedan {
+  width: 100%;
+  display: flex;
+}
+.main > .my-gedan .my-gedan-img {
+  flex: 1;
+  padding: 5px;
+  text-align: center;
+  line-height: 47px;
+  font-size: 18px;
+  color: #ccc;
+  overflow: hidden;
+}
+.main > .my-gedan .my-gedan-img img {
+  display: block;
+  width: 100%;
+}
+.main > .my-gedan .my-gedan-xq {
+  flex: 7;
+  border-bottom: 1px solid #E1E3E2;
+  display: flex;
+}
+.main > .my-gedan .my-gedan-xq > div {
+  flex: 9;
+  display: flex;
+  flex-direction: column;
+  padding: 5px 0px;
+}
+.main > .my-gedan .my-gedan-xq > div > p {
+  margin-top: 5px;
+}
+.main > .my-gedan .my-gedan-xq > div > i {
+  margin-top: 10px;
+  color: #ACB2B0;
+}
+.main > .my-gedan .my-gedan-xq > .icon-Group {
+  flex: 1;
+  line-height: 57px;
+  color: #ACB2B0;
+}
+.main > .my-gedan .my-gedan-xq > .icon-shengyin-copy-copy {
+  flex: 1;
+  line-height: 57px;
+  color: #C52E2E;
+}

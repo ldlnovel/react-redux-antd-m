@@ -1,0 +1,108 @@
+.mymusic-mg {
+  margin: 50px 0 60px 0;
+  height: 100%;
+}
+.mymusic-mg .mymusic-head {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2px;
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+}
+.mymusic-mg .mymusic-head .ifontsz {
+  font-size: 40px;
+  text-align: left;
+}
+.mymusic-mg .mymusic-head > i {
+  flex: 1;
+  margin-right: 10px;
+  text-align: center;
+}
+.mymusic-mg .mymusic-head > div {
+  flex: 9;
+  text-align: left;
+  color: #403939;
+  border-bottom: 1px solid #E1E3E2;
+}
+.mymusic-mg .mymusic-head > div > span {
+  margin-left: 10px;
+  color: #ACB2B0;
+}
+.mymusic-mg .my-title {
+  display: flex;
+  width: 100%;
+  background-color: #E7E9E8;
+  line-height: 40px;
+  justify-content: space-between;
+}
+.mymusic-mg .my-title .my-xia {
+  flex-grow: 1 ;
+  padding-left: 10px;
+}
+.mymusic-mg .my-title .my-xia .icon-xia {
+  font-size: 18px;
+  color: #ACB2B0;
+}
+.mymusic-mg .my-title .my-fonts {
+  flex-grow: 8;
+  color: #403939;
+  margin-left: -5px;
+}
+.mymusic-mg .my-title .my-fonts > i {
+  padding-left: 10px;
+  color: #ACB2B0;
+}
+.mymusic-mg .my-title .my-sz {
+  flex-grow: 1;
+  padding-right: 10px;
+  text-align: right;
+}
+.mymusic-mg .my-title .my-sz > i {
+  padding-left: 10px;
+  font-size: 16px;
+  line-height: 40px;
+}
+.mymusic-mg .wycolor1 {
+  color: #B34A47;
+}
+.mymusic-mg .my-gedan {
+  height: 80px;
+  width: 100%;
+  display: flex;
+}
+.mymusic-mg .my-gedan .my-gedan-img {
+  flex: 2;
+  padding: 5px;
+  height: 75px;
+  overflow: hidden;
+}
+.mymusic-mg .my-gedan .my-gedan-img img {
+  display: block;
+  width: 100%;
+}
+.mymusic-mg .my-gedan .my-gedan-xq {
+  flex: 8;
+  border-bottom: 1px solid #E1E3E2;
+  display: flex;
+}
+.mymusic-mg .my-gedan .my-gedan-xq div {
+  flex: 9;
+  display: flex;
+  flex-direction: column;
+  padding: 18px 0px;
+}
+.mymusic-mg .my-gedan .my-gedan-xq div i {
+  margin-top: 15px;
+  color: #ACB2B0;
+}
+.mymusic-mg .my-gedan .my-gedan-xq .icon-Group {
+  flex: 1;
+  line-height: 80px;
+  color: #ACB2B0;
+}
+.mymusic-mg .my-gedan .my-gedan-xq .icon-shengyin-copy-copy {
+  flex: 1;
+  line-height: 80px;
+  color: #C52E2E;
+}

@@ -1,0 +1,99 @@
+.list-box{
+  position: relative;
+  margin: 0px 0 70px 0;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  // height: 600px;
+  background-color: #fff;
+  >.head{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: #A6A394;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    // line-height: 45px;
+    padding: 10px;
+    >span{
+      font-size: 16px;
+      margin-left: -150px;
+      line-height: 28px;
+    }
+    >div{
+      >.icon-shousuo{
+        margin-right: 20px;
+      }
+    }
+  }
+  >.photograph{
+    background-color: #A6A394;
+    padding: 70px 20px 20px;
+    display: flex;
+    >img{
+      height: 145px;
+      width: 145px;
+    }
+    >div{
+      padding: 20px;
+      color: #fff;
+      font-family: "宋体";
+      font-size: 18px;
+      >.user{
+        margin-top:25px; 
+        display: flex;
+        >img{
+          display: block;
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+        }
+        >p{
+          padding-left:10px; 
+          font-size: 12px;
+          line-height: 30px;
+        }
+      }
+    }
+  }
+  >.setmusic{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: #A6A394;
+    color: #fff;
+    padding: 15px;
+    margin-top: -1px;
+    >.active{
+      color: #DAD7C8;
+    }
+    >div{
+      width: 100%;
+      height: 100%;
+      text-align: center;
+    }
+  }
+  >.listhead{
+    display: flex;
+    justify-content: space-between;
+    line-height: 50px;
+    padding: 0 10px;
+    border-bottom: 1px solid #E1E3E2;
+    >div{
+      display: flex;
+      >i{
+        margin-right:10px; 
+      }
+      >p{
+        >span{
+          color: rgb(194, 197, 195);
+          margin-left: 10px;
+        }
+      }
+      >.icon-duoxuan{
+        font-size: 14px;
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+.palyaudio {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background: #fff;
+  border-top: 1px solid rgba(204, 204, 204, 0.438);
+  z-index: 5;
+}
+.palyaudio > div > div {
+  display: flex;
+  justify-content: flex-start;
+}
+.palyaudio > div > div .play-img {
+  flex: 1;
+  height: 60px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.palyaudio > div > div .play-img > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.palyaudio > div > div .play-gec {
+  flex: 5;
+  padding: 18px 0;
+}
+.palyaudio > div > div .play-gec .music-name {
+  text-overflow: -o-ellipsis-lastline;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.palyaudio > div > div .play-gec .music-lyric {
+  max-width: 196px;
+  white-space: nowrap;
+  overflow: hidden;
+  -ms-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  color: #ACB2B0;
+}
+.palyaudio > div > div .play-toggle {
+  flex: 2;
+  text-align: center;
+  line-height: 60px;
+}
+.palyaudio > div > div .play-toggle > i {
+  padding: 0 10px;
+  font-size: 40px;
+}
+.palyaudio > div > div .play-li {
+  flex: 2;
+  line-height: 60px;
+  text-align: center;
+}
+.palyaudio > div > div .play-li > i {
+  font-size: 28px;
+}

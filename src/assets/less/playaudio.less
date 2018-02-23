@@ -1,0 +1,74 @@
+.palyaudio{
+  position: fixed;
+  bottom:0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background:#fff;
+  border-top: 1px solid rgba(204, 204, 204, 0.438); 
+  z-index: 5;
+  >div{
+    >div{
+      display: flex;
+      justify-content: flex-start;
+      .play-img{
+        flex: 1;
+        height: 60px;
+        padding:3px;
+        width: 60px;
+        box-sizing:border-box;
+        >a{
+          >img{
+            display: block;
+            // width: 100%;
+            height: 100%;
+            overflow: hidden;
+          }
+        }
+      }
+      .play-gec{
+        flex: 5;
+        // line-height: 30px;
+        padding:15px 5px;
+        .music-name{
+          text-overflow: -o-ellipsis-lastline;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-line-clamp: 1;
+          -webkit-box-orient: vertical;
+          height: 16px;
+          overflow: hidden;
+        }
+        .music-lyric{
+          // width: 100%;
+          max-width: 196px;
+          white-space:nowrap; overflow:hidden;  -ms-text-overflow: ellipsis;text-overflow: ellipsis;
+          color: #D33B2E;
+        }
+      }
+      .play-toggle{
+        flex: 2;
+        text-align: center;
+        line-height: 60px;
+        // background-color: red;
+        // padding: 0 10px;
+        >i{
+          padding: 0 10px;
+          // color: red;
+          font-size: 40px;
+          // color: #fff;
+        }
+      }
+      .play-li{
+        flex:2;
+        line-height: 60px;
+        text-align: center;
+        >i{
+          font-size: 28px;
+        }
+      }
+  
+    }
+  }
+}
